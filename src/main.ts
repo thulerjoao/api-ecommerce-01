@@ -10,6 +10,7 @@ async function bootstrap() {
     .setTitle('API ecommerce 01')
     .setDescription('API for ecommerce based on the first bootcamp')
     .setVersion('1.0.0')
+    .addTag('users')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
